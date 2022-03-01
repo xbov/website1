@@ -1,0 +1,71 @@
+body {
+  background-color: blue;
+  color: darkslateblue;
+  font-family: arial;
+  font-size: 100%;
+}
+
+h1 {
+  color: white;
+  background-color: black;
+  font-size: 24px;
+  line-height: 3;
+}
+
+ul {
+  color: white;
+}
+
+h2 {
+  background-color: black;
+  font-size: 24px;
+}
+
+header {
+  background-color: blue;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+li {
+  background-color: white;
+}
+
+ul {
+  color: black;
+}
+
+*{
+  font-size: 100%;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+p {
+line-height: 3;
+color: white;
+text-align:justify;
+}
+
+header h1 {
+  text-align: center;
+}
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: red;
+}
