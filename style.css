@@ -3,13 +3,16 @@ body {
   color: darkslateblue;
   font-family: arial;
   font-size: 100%;
+  line-height: 1;
+  /* margin: 15px 15px 15px */
+  background-image: url(images/lake.jpg)
 }
 
 h1 {
   color: white;
   background-color: black;
-  font-size: 24px;
-  line-height: 3;
+  font-size: 18px;
+  line-height: 2;
 }
 
 ul {
@@ -18,11 +21,12 @@ ul {
 
 h2 {
   background-color: black;
+  color: white;
   font-size: 24px;
 }
 
 header {
-  background-color: blue;
+  background-color: black;
 }
 
 h3 {
@@ -33,8 +37,9 @@ li {
   background-color: white;
 }
 
-ul {
-  color: black;
+ul, ol {
+  color: white;
+  margin: 15px 0;
 }
 
 *{
@@ -46,9 +51,13 @@ h1, h2, h3 {
 }
 
 p {
-line-height: 3;
+line-height: `1`;
 color: white;
 text-align:justify;
+margin-bottom: 20px;
+boreder: 1px solid yellow;
+margin: 15px 0;
+/* padding: 30px; */
 }
 
 header h1 {
@@ -59,7 +68,7 @@ a:link,
 a:focus,
 a:active {
   text-decoration: none;
-  color: red;
+  color: white;
 }
 
 a:hover {
@@ -68,4 +77,42 @@ a:hover {
 
 a:visited {
   color: red;
+}
+
+/* *{
+  fontsize: 100%; */
+  /* border:1px solid black; */
+  /* margin: 0; */
+  /* line-height: 1; */
+}
+
+.about {
+  background-color: red;
+}
+
+.about h1 {
+  fontsize: 18px
+}
+
+.title {
+  font-size: 48px;
+  text-decoration: underline;
+  color: white;
+}
+
+#footer p {
+  color: red;
+}
+
+.container {
+  /* max-width: 1000px */
+}
+
+div{
+  margin: 0 auto;
+}
+
+/* .banner {
+  height: 300px;
+  background-image: url(images/banner2.jpg); */
 }
